@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(180, 154, 154);
+}
+
+.order{
+    padding-inline: 50px;
+    
+
+}
+
+.mang{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 0 auto;
+}
+
+input,option{
+    padding: 10px;
+    height: 15px;
+    font-size: 18px;
+    outline-color:green;
+    background-color: rgb(226, 218, 202);
+    border: none;
+}
+
+label{
+    font-size: 18px;
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+
+select{
+    height: 40px;
+    font-size: 18px;
+    outline-color:green;
+    background-color: rgb(226, 218, 202);
+    border: none;
+}
+
+button{
+    margin-top:10px;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: blue;
+    border: none;
+    color: white;
+    border-radius: 10px;
+}
+
+.orderDetail{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 20px auto;
+    border-radius: 10px;
+    padding: 10px;
+    gap: 10px;
+    background-color: rgb(77, 137, 206);
+}
+
+.orderDetail li{
+    font-size: 18px;
+    border: 1px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+}
+
+li button{
+    padding: 5px;
+    font-size: 15px;
+    font-weight: 600;
+    background-color: red;
+    border: none;
+    color: white;
+    border-radius: 10px;
+}
